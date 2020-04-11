@@ -70,6 +70,7 @@ Distributions appear quite asymmetric, with long tails skewed   towards high val
 Lower quartile for females is close to zero.  
 
 Answer:  
+Distributions appear quite asymmetric, with long tails skewed towards high values. 
 All of the propositions among the choices are true, but validity of the t test is compromised when applied to variables with skewed distributions. The test's validity does not depend on separation of median values or magnitude of quartile, so first and last choices are incorrect. Difference in number of outliers flagged can be important, but the more systematic concern with asymmetry of distributions is the target response for this problem.
 
 ### Variable transformation
