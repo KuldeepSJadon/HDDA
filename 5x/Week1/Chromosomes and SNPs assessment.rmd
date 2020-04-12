@@ -80,7 +80,7 @@ The first one listed is rs556541063 which is at location 52.
 What is the location on chr17 of SNP rs73971683?
 
 ```{r}
-s17$loc[which(s17$RefSNP_id=="73971683")]
+s17[which(s17$RefSNP_id=="rs73971683")]
 ##or with dplyr
 library(dplyr)
 s17 %>% filter(RefSNP_id=="73971683") %>% select(loc)
@@ -124,3 +124,5 @@ What is the disease/trait with the most associations?
 head(sort(table(ebicat37$DISEASE.TRAIT),decreasing=TRUE))
 sort(table(ebicat37$DISEASE.TRAIT),decreasing=TRUE)[1]
 ```
+sort(table(mcols(ebicat37)[,"DISEASE/TRAIT"]), decreasing=TRUE)[1:10]
+......
