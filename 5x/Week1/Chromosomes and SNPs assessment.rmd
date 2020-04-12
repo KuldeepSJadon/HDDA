@@ -41,7 +41,7 @@ Read the help file for the fuction `countPattern` and tell us which of the follo
 seqs<-c("ATG","TGA","TAA","TAG")
 n<-sapply(seqs,function(sq){countPattern(sq,chr11seq)})
 n
-which.max(a)
+which.max(n)
 ```
 ### Nucleotide frequencies
 
